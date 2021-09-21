@@ -5,7 +5,7 @@ def genrate_qr_code(text , file_name):
     url = "https://api.qrserver.com/v1/create-qr-code/"
     p = {
         
-        "size" : "100*100",
+        "size" : "200*200",
         "data" : text      
     }
     
